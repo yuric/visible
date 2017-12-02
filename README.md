@@ -22,10 +22,10 @@ Or install it yourself as:
 
 ```ruby 
  #By default it installs all channels. You can also pass 'sms', 'call', or 'email' to only install the specified channels.
-rake visible:install 
-sms = Visible::SMS.sender.new
-call = Visible::Call.sender.new(:from => '+18005555555')
-email = Visible::Email.sender.new(:files => ['logo.png'])
+ rake visible:install 
+ sms = Visible::SMS.sender.new
+ call = Visible::Call.sender.new(:from => '+18005555555')
+ email = Visible::Email.sender.new(:files => ['logo.png'])
 
  #Signature is optional but if passed is always included. You can also set :from and :signature in your visible.yml file. 
  sms.add(:from  => '+15551115555', :to => '+15555555555,  :signature => '~The Visible Team') 
