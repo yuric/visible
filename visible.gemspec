@@ -9,15 +9,15 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Yuri Costa"]
   spec.email         = ["yuri@sparkroad.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Provider agnostic communication channels.}
+  spec.description   = %q{Visible enables provider agnostic communication for SMS, Email and Voice calls. Social Network communication channels coming soon. Feedback and contributions will determine priority.}
+  spec.homepage      = "https://github.com/yuric/visible"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
-    spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+    spec.metadata["allowed_push_host"] = "RubyGems.org"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
