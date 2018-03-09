@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 [![Gem Version](https://badge.fury.io/rb/visible.svg)](https://badge.fury.io/rb/visible)
+=======
+#READ BEFORE YOU INSTALL THE GEM IT#
+VISIBLE GEM IS IN ITS ALPHA/DESIGN STAGE. 
+
+>>>>>>> 32454d41e2a4f55c3c75b47f8dfd687fa27c26c1
 # Visible
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/visible`. To experiment with that code, run `bin/console` for an interactive prompt.
